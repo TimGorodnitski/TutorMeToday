@@ -1,0 +1,44 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Tutor Me Today</title>
+<link href="styles/TMT_cs5.css" rel="stylesheet" type="text/css" />
+<link href="mailer.php" />
+</head>
+
+<body>
+<div id="container">
+  <div id="banner">
+    <div id="menubar">
+      <div id="menuhome"><a href="home.html">Home </a></div>
+      <div id="menuabout"><a href="about us.html">About Us</a></div>
+      <div id="menuservices"><a href="services.html">Services</a></div>
+      <div id="menujobs"><a href="jobs.html">Jobs</a></div>
+      <div id="menucontact"><a href="contact us.html">Contact Us</a></div>
+    </div>
+  </div>
+  <div id="main_contact_image">
+    <div id="contact_box">
+      <div id="c2">
+        <h2 style= "text-align: center" >Contact Us</h2>
+        <form action="mailer.php" method="POST">
+          <fieldset>
+            <label>Name</label>
+            <input type="text" name="name" />
+            <label>Phone</label>
+            <input type="text" name="phone"/>
+            <label>Email</label>
+            <input type="text" name="email"/>
+            <label>Message</label>
+            <textarea name="message" ></textarea>
+            <input type="submit" value="Send" class="button">
+            <input type="reset" value="Clear" class="button">
+          </fieldset>
+        </form>
+      </div>
+    </div>
+  </div>
+</div>
+</body>
+</html>

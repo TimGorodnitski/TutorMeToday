@@ -1,0 +1,359 @@
+@charset "utf-8";
+body {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	color: #000;
+	background-color: #999;
+	background-image: url(../images/chalkboardgrey.jpg);
+	background-repeat: repeat-y;
+	margin-top: 0px;
+}
+#container {
+	width: 968px;
+	margin: 0 auto;
+	padding-right: 10px;
+	overflow: hidden;
+	padding-bottom: 10px;
+	background-repeat: repeat-y;
+}
+#banner {
+	position: relative;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	width: 968px;
+	height: 144px;
+	background-image: url(../images/bulletinbanner.jpg);
+	background-repeat: no-repeat;
+}
+#tmt_menu {
+	position: absolute;
+	top: 99px;
+	right: 14px;
+	height: 40px;
+}
+#menubar {
+	font-family: "Myriad Pro";
+	margin: 0;
+	padding: 0;
+	font-size: 12pt;
+	text-align: left;
+	width: 968px;
+	height: 144px;
+	text-align: center;
+	position: relative;
+}
+#menubar a {
+	font-family: "Myriad Pro";
+	font-size: 13pt;
+	cursor: pointer;
+	padding: 0.4em 0.65em;
+	color: #F00;
+	text-decoration: none;
+	font-style: normal;
+	font-variant: normal;
+	font-weight: bold;
+	text-shadow: 1px 1px 0px #000;
+}
+MenuBar a:hover, MenuBar a:focus {
+	color: #00002D;
+}
+#menuhome {
+	width: 115px;
+	position: absolute;
+	bottom: 35px;
+	right: 465px;
+	cursor: pointer;
+}
+#menuabout {
+	width: 110px;
+	position: absolute;
+	bottom: 35px;
+	right: 347px;
+	cursor: pointer;
+}
+#menuservices {
+	width: 100px;
+	position: absolute;
+	bottom: 35px;
+	right: 245px;
+	cursor: pointer;
+}
+#menujobs {
+	width: 125px;
+	position: absolute;
+	bottom: 35px;
+	right: 125px;
+	cursor: pointer;
+}
+#menucontact {
+	width: 120px;
+	position: absolute;
+	bottom: 35px;
+	right: 6px;
+	cursor: pointer;
+}
+#main_image {
+	background-image: url(../images/mainimage.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 512px;
+	width: 968px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#main_jobs_image {
+	background-image: url(../images/Jobs.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 512px;
+	width: 968px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#main_text {
+	background-color: #FFF;
+	background: rgba(255, 255, 255, 0.8);
+	width: 300px;
+	line-height: 1.2;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	padding: 12px;
+	position: absolute;
+	right: 60px;
+	bottom: 60px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#main_text h2 {
+	color: #E11313;
+	margin-top: 0px;
+	margin-bottom: 10px;
+	margin-left: 0px;
+}
+#main_text h3 {
+	font-size: 16px;
+	margin: 0 auto;
+	padding-left: 0px;
+}
+#main_text p {
+	font-size: 14px;
+	padding-left: 0px;
+	margin-left: 0px;
+}
+#left_column, #center_column, #right_column {
+	width: 316px;
+	float: left;
+	background-image: url(../images/paper316.jpg);
+	background-position: bottom;
+	margin-top: 10px;
+	background-repeat: repeat-y;
+	height: 600px;
+	overflow: hidden;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#center_column, #right_column {
+	margin-left: 10px;
+}
+#about_us_column {
+	width: 968px;
+	float: left;
+	background-image: url(../images/AboutUsPaper.jpg);
+	border-radius: 10px;
+	margin-top: 10px;
+	overflow: auto;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#about_us_image {
+	width: 968px;
+	height: 508px;
+	float: left;
+	background-image: url(../images/aboutus.jpg);
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#main_contact_image {
+	background-image: url(../images/FlippedGirlMain.jpg);
+	background-repeat: no-repeat;
+	position: relative;
+	height: 512px;
+	width: 968px;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+h2 {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	color: #E11313;
+	padding-left: 0px;
+	text-shadow: 1px 1px 0px #000;
+}
+p {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	margin-top: 1em;
+	margin-left: 55px;
+	margin-right: 16px;
+}
+#about_us_column p {
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	margin-top: 1em;
+	margin-left: 75px;
+	margin-right: 16px;
+	overflow: auto;
+}
+#about_us_column h5 {
+	color: #E11313;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 75px;
+	font-size: 24px;
+}
+h4 {
+	margin-top: 0px;
+	padding-bottom: 10px;
+	border-radius: 10px;
+}
+h5 {
+	color: #E11313;
+	margin-top: 10px;
+	margin-bottom: 10px;
+	margin-left: 55px;
+	font-size: 24px;
+	text-shadow: 1px 1px 0px #000;
+}
+html {
+	overflow-y: scroll;
+}
+#left_home_image, #center_home_image, #right_home_image {
+	width: 316px;
+	height: 210px;
+	float: left;
+	margin-top: 10px;
+	background-repeat: repeat-y;
+	overflow: auto;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#left_home_image {
+	background-image: url(../images/columnpic1.jpg)
+}
+#center_home_image {
+	background-image: url(../images/columnpic2.jpg)
+}
+#right_home_image {
+	background-image: url(../images/columnpic3.jpg)
+}
+#center_home_image, #right_home_image {
+	margin-left: 10px;
+}
+#footer {
+	width: 968px;
+	background-color: #FFF;
+	border-radius: 10px;
+	float: left;
+	margin-top: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#left_services_image, #center_services_image, #right_services_image {
+	width: 316px;
+	height: 210px;
+	float: left;
+	background-repeat: repeat-y;
+	overflow: auto;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#left_services_image {
+	background-image: url(../images/services1.jpg)
+}
+#center_services_image {
+	background-image: url(../images/services2.jpg)
+}
+#right_services_image {
+	background-image: url(../images/services3.jpg)
+}
+#center_services_image, #right_services_image {
+	margin-left: 10px;
+}
+#left_services_column, #center_services_column, #right_services_column {
+	width: 316px;
+	float: left;
+	background-image: url(../images/paper316.jpg);
+	background-position: bottom;
+	margin-top: 10px;
+	background-repeat: repeat-y;
+	height: 540px;
+	overflow: hidden;
+	border-radius: 10px;
+	-moz-box-shadow: 2px 2px 5px #000;
+	-webkit-box-shadow: 2px 2px 5px #000;
+	box-shadow: 2px 2px 5px #000;
+}
+#center_services_column, #right_services_column {
+	margin-left: 10px;
+}
+#contact_box {
+	width: 690px;
+	line-height: 1.2;
+	font-family: "Myriad Pro", Helvetica, Arial, sans-serif;
+	padding: 12px;
+	position: absolute;
+	right: 39px;
+	bottom: 27px;
+	background-image: url(../images/post-it-note1.jpg);
+	background-position: center;
+	background-size: contain;
+	background-repeat: no-repeat;
+	height: 460px;
+}
+#c2 {
+	width: auto;
+	height: 300px;
+	position: absolute;
+	bottom: 94px;
+	right: 149px;
+	padding: 10px;
+}
+textarea {
+	resize: none;
+	width: 200px;
+	height: auto;
+}
+label {
+	width: 100px;
+	float: left;
+	text-align: right;
+	margin: 0px 5px 0px 0px;
+}
+form fieldset{
+	position: relative;
+	display: block;
+	width: 350px;
+	border: hidden;
+	padding: 0px 10px 10px 10px;
+}
+input {
+	width: 200px;
+	float: left;
+	margin: 0px 5px 0px 0px;
+}
+.button {
+	width: 100px;
+}
